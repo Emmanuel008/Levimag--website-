@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import { Link  } from 'react-scroll'; // Import Link from 'react-scroll'
+import { Link as Scroll } from 'react-scroll'; // Import Link from 'react-scroll'
 import AnimateNavToggler from '../../helpers/animateNavToggler';
 
 import { ReactComponent as MenuIcon } from "feather-icons/dist/icons/menu.svg";
@@ -17,7 +17,7 @@ const Header = tw.header`
 
 export const NavLinks = tw.div`inline-block`;
 
-export const SmoothLink = styled(Link)`
+export const SmoothLink = styled(Scroll)`
 ${tw`text-lg my-2 lg:text-sm lg:mx-6 lg:my-0
   font-semibold tracking-wide transition duration-300 cursor-pointer
   pb-1 border-b-2 border-transparent hover:border-primary-500 hocus:text-primary-500`}
@@ -79,11 +79,11 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
    */
   const defaultLinks = [
     <NavLinks key={1}>
-      <NavLink href="/#">Home</NavLink>
-      <NavLink href="/#">About us</NavLink>
-      <NavLink href="/#">Services</NavLink>
-      <NavLink href="/#">Projects</NavLink>
-      <NavLink href="/#">Contact Us</NavLink>
+      <NavLink href="/">Home</NavLink>
+      <NavLink href="/">About us</NavLink>
+      <NavLink href="/">Services</NavLink>
+      <NavLink href="/">Projects</NavLink>
+      <NavLink href="/">Contact Us</NavLink>
       <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/#">Game</PrimaryLink>
     </NavLinks>
   ];
