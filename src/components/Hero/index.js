@@ -63,7 +63,7 @@ export default ({
   description = "WE ARE HERE TO HELP YOU GROW YOUR BUSINESS",
   primaryActionUrl = "#",
   primaryActionText = "Contact Us",
-  secondaryActionUrl = "#",
+  secondaryActionUrl = "https://patatap.com/",
   secondaryActionText = "Game"
 }) => {
   return (
@@ -75,9 +75,9 @@ export default ({
             <Heading>{heading}</Heading>
             <Paragraph>{description}</Paragraph>
             <Actions>
-              <a href={primaryActionUrl} className="action primaryAction">
+              <SmoothLink to="contact" spy={true} smooth={true} offset={-100} duration={100} className="action primaryAction">
                 {primaryActionText}
-              </a>
+              </SmoothLink>
               <a href={secondaryActionUrl} className="action secondaryAction">
                 {secondaryActionText}
               </a>
