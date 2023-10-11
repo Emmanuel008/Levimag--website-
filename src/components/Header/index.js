@@ -80,11 +80,8 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
   const defaultLinks = [
     <NavLinks key={1}>
       <NavLink href="/">Home</NavLink>
-      <NavLink href="/">About us</NavLink>
-      <NavLink href="/">Services</NavLink>
-      <NavLink href="/">Projects</NavLink>
-      <NavLink href="/">Contact Us</NavLink>
-      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/#">Game</PrimaryLink>
+      <SmoothLink to="contact" spy={true} smooth={true} offset={-100} duration={100}>Contact Us</SmoothLink>
+      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="https://patatap.com/">Game</PrimaryLink>
     </NavLinks>
   ];
 

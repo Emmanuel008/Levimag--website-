@@ -70,7 +70,7 @@ export default ({
         price: "$5.99",
         rating: "5.0",
         reviews: "87",
-        url: "#"
+        url: "/diamond"
       },
       {
         imageSrc:
@@ -80,7 +80,7 @@ export default ({
         price: "$2.99",
         rating: "4.8",
         reviews: "32",
-        url: "#"
+        url: "/gold"
       },
       {
         imageSrc:
@@ -90,17 +90,17 @@ export default ({
         price: "$7.99",
         rating: "4.9",
         reviews: "89",
-        url: "#"
+        url: "/silver"
       },
       {
         imageSrc:
           "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
-        title: "Silver Package",
+        title: "Bronze Package",
         content: "15 Million Tsh Package",
         price: "$8.99",
         rating: "4.6",
         reviews: "12",
-        url: "#"
+        url: "/bronze"
       },
     ],
     // Main: getRandomCards(),

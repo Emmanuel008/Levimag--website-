@@ -11,6 +11,8 @@ import FeatureWithSteps from "components/features/TwoColWithSteps.js";
 import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
 import Footer from "components/footers/Footer";
 import Contact from "components/features/Contact";
+import Benefits from "components/benefit/Benefits";
+import Payment from "components/payment/Payment";
 
 
 
@@ -120,6 +122,7 @@ export default ({
                         buttonRounded={false}
                         imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
                     />
+                    <Benefits textOnLeft={true}/>
                     <FeatureWithSteps
                         subheading={<Subheading>Sponsorship Rates</Subheading>}
                         heading={
@@ -131,6 +134,57 @@ export default ({
                         imageSrc={macHeroScreenshotImageSrc}
                         imageDecoratorBlob={true}
                         decoratorBlobCss={tw`xl:w-40 xl:h-40 opacity-15 -translate-x-1/2 left-1/2`}
+                    />
+                    <Payment/>
+                    <MainFeature1
+                        subheading={<Subheading>The Royal golf Magazine</Subheading>}
+                        heading="R.O.I & TRACKING"
+                        description="We are dedicated to ensuring that your sponsorship investment yields
+                                    tangible results. Key performance indicators (KPIs) and metrics will be
+                                    established to track the impact of your sponsorship. These may include
+                                    increased brand awareness, website traffic, social media engagement,
+                                    and any measurable impact on sales or leads generated. We will provide
+                                    regular reports and updates to demonstrate the value of our partnership."
+                        buttonRounded={false}
+                        imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+                    />
+                    <MainFeature1
+                        subheading={<Subheading>The Royal golf Magazine</Subheading>}
+                        heading="Proposal Timeline"
+                        description="The duration of our partnership can be customized to align with your
+                                    objectives. A detailed timeline will be provided upon further discussions
+                                    and agreement."
+                        buttonRounded={false}
+                        textOnLeft={false}
+                        imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+                    />
+                    <MainFeature1
+                        subheading={<Subheading>The Royal golf Magazine</Subheading>}
+                        heading="Appendices"
+                        description="Attached, you will find additional supporting documents, including our
+                                    magazine license, which provides a comprehensive overview of The Royal
+                                    Golf Magazine.
+                                    We eagerly anticipate the opportunity to collaborate with your esteemed
+                                    company. Together, we can make a lasting impact on the golfing
+                                    community and showcase Tanzania
+                                    '
+                                    s abundant potential to the world.
+                                    Thank you for considering this sponsorship opportunity."
+                        buttonRounded={false}
+                        imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+                    />
+                    <MainFeature1
+                        subheading={<Subheading>The Royal golf Magazine</Subheading>}
+                        heading="Next Steps"
+                        description="To move forward, we cordially invite you to schedule a meeting with our
+                                    team to delve into the specifics of your sponsorship package, finalize the
+                                    agreement, and address any questions or concerns you may have. We
+                                    are wholly committed to ensuring that this partnership is mutually
+                                    beneficial and a rewarding experience for your esteemed company.
+                                    "
+                        buttonRounded={false}
+                        textOnLeft={false}
+                        imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
                     />
                 </ContentWithPaddingXl>
             </Container>

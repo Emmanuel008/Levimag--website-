@@ -7,7 +7,7 @@ import MainFeature1 from "components/features/TwoColWithButton.js";
 // import MainFeature3 from "components/features/TwoColSingleFeatureWithStats2.js";
 // import Features from "components/features/ThreeColSimple.js";
 // import Features from "components/features/ThreeColWithSideImage.js";
-import TeamCardGrid from "components/cards/ProfileThreeColGrid.js";
+// import TeamCardGrid from "components/cards/ProfileThreeColGrid.js";
 
 // import SupportIconImage from "images/support-icon.svg";
 // import ShieldIconImage from "images/shield-icon.svg";
@@ -66,9 +66,9 @@ export default () => {
         ]}
         linkText=""
       /> */}
-      <TeamCardGrid 
+      {/* <TeamCardGrid 
         subheading={<Subheading>Our Team</Subheading>}
-      />
+      /> */}
     </div>
   );
 };
