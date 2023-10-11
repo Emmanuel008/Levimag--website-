@@ -44,7 +44,7 @@ export default () => {
   const cards = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1550699026-4114bbf4fb49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80",
+        "/company/image-015.jpg",
       subtitle: "Paid",
       title: "THE ROYAL GOLF MAGAZINE",
       description:
@@ -54,7 +54,7 @@ export default () => {
 
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1543423924-b9f161af87e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+        "/company/image-016.jpg",
       subtitle: "Free",
       title: "SEREBUKA DANCE COMPETITION",
       description:

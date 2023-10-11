@@ -64,7 +64,7 @@ export default ({
     Starters: [
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
+          "/serebuka/image-025.jpg",
         title: "Diamond Package",
         content: "130 Million TSH Package",
         price: "$5.99",
@@ -74,7 +74,7 @@ export default ({
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
+          "/serebuka/image-015.jpg",
         title: "Gold Package",
         content: "65 Million Tsh Package",
         price: "$2.99",
@@ -84,7 +84,7 @@ export default ({
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
+          "/serebuka/image-008.jpg",
         title: "Silver Package",
         content: "30 Million Tsh Package",
         price: "$7.99",
@@ -94,7 +94,7 @@ export default ({
       },
       {
         imageSrc:
-          "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
+          "/serebuka/image-017.jpg",
         title: "Bronze Package",
         content: "15 Million Tsh Package",
         price: "$8.99",

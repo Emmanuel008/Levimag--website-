@@ -44,7 +44,7 @@ export const LogoLink = styled(NavLink)`
   ${tw`flex items-center font-black border-b-0 text-2xl! ml-0!`};
 
   img {
-    ${tw`w-10 mr-3`}
+    ${tw`w-40 mr-3`}
   }
 `;
 
@@ -90,8 +90,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
 
   const defaultLogoLink = (
     <LogoLink href="/">
-      {/* <img src={logo} alt="logo" /> */}
-      LEVIMAG
+      <img src='/logo/logo.png' alt="logo" width={500}/>
     </LogoLink>
   );
 

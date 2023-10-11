@@ -72,35 +72,35 @@ export default ({
   const defaultTestimonials = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1512100356356-de1b84283e18?ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+        "/royal/image-005.jpg",
       quote:
         "Our readership is a diverse blend of golf enthusiasts, spanning from amateurs, seasoned professionals to enthusiastic newcomers. This influential readership extends beyond the realm of golf, including Members of Parliament, Ambassadors, CEOs, Diplomats, community leaders, Army top officials, and Government representatives. Aligning your brand with The Royal Golf Magazine will seamlessly connect you with this influential and highly motivated audience.",
       customerName: "Audience Demographics:",
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1523952578875-e6bb18b26645?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
+        "/royal/image-051.jpg",
       quote:
         "The Royal Golf Magazine offers a rare and exclusive opportunity to enhance your brand's identity, lend support to cultural and sports initiatives, and effectively promote your products or services to a highly receptive audience.",
       customerName: "Alignment with Company Goals:",
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1523952578875-e6bb18b26645?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
+        "/royal/image-036.jpg",
       quote:
         "Sponsoring The Royal Golf Magazine is your gateway to elevating your brand's image not just within the golfing community but also beyond its boundaries. Your association with this historic magazine will convey prestige, credibility, and a robust commitment to advancing sports and tourism in Tanzania.",
       customerName: "Impact on Brand Image:",
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1523952578875-e6bb18b26645?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
+        "/royal/image-012.jpg",
       quote:
         "Our advertising formats are comprehensive, covering both print and digital platforms. We offer a variety of advertising options, including cover branding, inside page advertisements, and more, allowing you to effectively convey your message to our discerning readers.",
       customerName: "Advertising Opportunities:",
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1523952578875-e6bb18b26645?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
+        "/royal/image-016.jpg",
       quote:
         "We will actively integrate your sponsorship into our magazine through prominent mentions, branding, and a host of engagement opportunities. Our team will work closely with yours to ensure your brand enjoys maximum visibility and recognition.",
       customerName: "Partnership Activation:",

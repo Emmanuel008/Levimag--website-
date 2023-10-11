@@ -27,7 +27,7 @@ export default () => {
                     resources services. Our commitment to excellence and customercentric approach has allowed us to build a reputation as a trusted
                     partner in the Tanzanian business landscape."
         buttonRounded={false}
-        imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+        imageSrc="/company/image-010.jpg"
       />
       <MainFeature1
         subheading={<Subheading>Our Vision</Subheading>}
@@ -40,7 +40,7 @@ export default () => {
                     leading consultancy firm in the region."
         buttonRounded={false}
         primaryButtonText="Contact Us"
-        imageSrc="https://images.unsplash.com/3/doctype-hi-res.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=768&q=80"
+        imageSrc="/company/image-012.jpg"
         textOnLeft={false}
       />
       {/* <Features

@@ -8,7 +8,7 @@ import Header from "components/Header";
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts";
 import { SectionHeading } from "components/misc/Headings";
 import FeatureWithSteps from "components/features/TwoColWithSteps.js";
-import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
+// import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
 import Footer from "components/footers/Footer";
 import Contact from "components/features/Contact";
 import Benefits from "components/benefit/Benefits";
@@ -47,20 +47,9 @@ export default ({
                                     approach has allowed us to build a reputation as a trusted partner in
                                     the Tanzanian business landscape."
                         buttonRounded={false}
-                        imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+                        imageSrc="/royal/image-008.jpg"
                         textOnLeft={false}
-                    />
-                    <MainFeature1
-                        subheading={<Subheading>About Magazine Patron</Subheading>}
-                        heading="Dr. Damas Ndumbaro"
-                        description="Magazine Patron, is a Minister of Culture, Arts
-                                    and Sports.
-                                    Who is also Tanzania Bunge Golf Team
-                                    Member.
-                                    "
-                        buttonRounded={false}
-                        imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
-                    />
+                    />           
                     <MainFeature1
                         subheading={<Subheading>Proposal Sunmary</Subheading>}
                         heading="The Royal Golf Magazine is Tanzania's premier golf publication"
@@ -77,7 +66,7 @@ export default ({
                                     the dynamic golfing community.
                                     "
                         buttonRounded={false}
-                        imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+                        imageSrc="/royal/image-012.jpg"
                         textOnLeft={false}
                     />
                     <MainFeature1
@@ -100,7 +89,7 @@ export default ({
                                     potential to not only attract tourists but also captivate golf enthusiasts of
                                     all levels"
                         buttonRounded={false}
-                        imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+                        imageSrc="/royal/image-016.jpg"
                     />
                     <MainFeature1
                         subheading={<Subheading>Sponsorship</Subheading>}
@@ -120,7 +109,7 @@ export default ({
                                     cultural initiatives within the Tanzanian landscape.
                                     "
                         buttonRounded={false}
-                        imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+                        imageSrc="/royal/image-020.jpg"
                     />
                     <Benefits textOnLeft={true}/>
                     <FeatureWithSteps
@@ -131,7 +120,7 @@ export default ({
                         </>
                         }
                         textOnLeft={false}
-                        imageSrc={macHeroScreenshotImageSrc}
+                        imageSrc='/royal/image-050.jpg'
                         imageDecoratorBlob={true}
                         decoratorBlobCss={tw`xl:w-40 xl:h-40 opacity-15 -translate-x-1/2 left-1/2`}
                     />
@@ -146,7 +135,7 @@ export default ({
                                     and any measurable impact on sales or leads generated. We will provide
                                     regular reports and updates to demonstrate the value of our partnership."
                         buttonRounded={false}
-                        imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+                        imageSrc="/royal/image-047.jpg"
                     />
                     <MainFeature1
                         subheading={<Subheading>The Royal golf Magazine</Subheading>}
@@ -156,7 +145,7 @@ export default ({
                                     and agreement."
                         buttonRounded={false}
                         textOnLeft={false}
-                        imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+                        imageSrc="/royal/image-051.jpg"
                     />
                     <MainFeature1
                         subheading={<Subheading>The Royal golf Magazine</Subheading>}
@@ -171,7 +160,7 @@ export default ({
                                     s abundant potential to the world.
                                     Thank you for considering this sponsorship opportunity."
                         buttonRounded={false}
-                        imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+                        imageSrc="/royal/image-064.jpg"
                     />
                     <MainFeature1
                         subheading={<Subheading>The Royal golf Magazine</Subheading>}
@@ -184,7 +173,18 @@ export default ({
                                     "
                         buttonRounded={false}
                         textOnLeft={false}
-                        imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+                        imageSrc="/royal/image-055.jpg"
+                    />
+                    <MainFeature1
+                        subheading={<Subheading>About Magazine Patron</Subheading>}
+                        heading="Dr. Damas Ndumbaro"
+                        description="Magazine Patron, is a Minister of Culture, Arts
+                                    and Sports.
+                                    Who is also Tanzania Bunge Golf Team
+                                    Member.
+                                    "
+                        buttonRounded={false}
+                        imageSrc="/royal/image-056.jpg"
                     />
                 </ContentWithPaddingXl>
             </Container>

@@ -9,7 +9,6 @@ import { Container, ContentWithPaddingXl } from "components/misc/Layouts";
 import { SectionHeading } from "components/misc/Headings";
 import { SectionDescription as DescriptionBase } from "components/misc/Typography";
 import { ReactComponent as CheckboxIcon } from "feather-icons/dist/icons/check-circle.svg";
-import heroScreenshotImageSrc from "images/demo/MainLandingPageHero.png";
 import TabGrid from "components/cards/TabCardGrid.js";
 import Footer from "components/footers/Footer";
 import Contact from "components/features/Contact";
@@ -95,7 +94,7 @@ export default ({
                                     has allowed us to build a reputation as a trusted partner in the
                                     Tanzanian business landscape."
                         buttonRounded={false}
-                        imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+                        imageSrc="/serebuka/image-006.jpg"
                     />
                     <Text>
                         <h2>Objective</h2>
@@ -158,7 +157,7 @@ export default ({
                             living doing what they love"
                         buttonRounded={false}
                         primaryButtonText="Contact Us"
-                        imageSrc="https://images.unsplash.com/3/doctype-hi-res.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=768&q=80"
+                        imageSrc="/serebuka/image-008.jpg"
                         textOnLeft={false}
                     />
                     <HeroRow>
@@ -176,7 +175,7 @@ export default ({
                         </TextColumn>
                         <ImageColumn>
                         <ImageContainer>
-                            <Image src={heroScreenshotImageSrc} />
+                            <Image src='/serebuka/image-011.jpg' />
                         </ImageContainer>
                         </ImageColumn>
                     </HeroRow>
